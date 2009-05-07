@@ -1,0 +1,5 @@
+# sfSympalFollowPlugin routing
+
+sympal_follow_feed:
+  url:    /follow/feed
+  param: { module: sympal_social_follow, action: feed }

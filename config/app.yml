@@ -1,0 +1,14 @@
+all:
+  sympal_config:
+    follow:
+      feed_title: Follow Me
+      feed_link: http://sympalphp.org/blog/list.rss
+      feed_author_name: Your Name
+      feed_author_email: jonwage@gmail.com
+      feeds:
+        blog: 'http://www.jwage.com/blog.rss'
+        facebook: 'http://www.facebook.com/feeds/status.php?id=9411000&viewer=9411000&key=b3ed0bef21&format=rss20'
+        twitter: 'http://twitter.com/statuses/user_timeline/8150902.rss'
+        google: 'http://www.google.com/reader/public/atom/user/00955969792128892300/state/com.google/broadcast'
+        digg: 'http://digg.com/users/jwage/history/diggs.rss'
+        flickr: 'http://api.flickr.com/services/feeds/photos_public.gne?id=34108549@N00&lang=en-us&format=rss_200'
